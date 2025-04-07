@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+
+int main() {
+	int num;
+	cout << "what grade are you?" << endl;
+	cin >> num;
+	if (num <=5 ) {
+		cout << "Enjoy elementary school" << endl;
+	}
+	else if (num <=8) {
+		cout << "Have fun in middle school" << endl;
+	}
+	else if (num <=12) {
+		cout << "Prepare well in high school" << endl;
+	}
+
+}
