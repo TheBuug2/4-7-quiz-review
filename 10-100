@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int num;
+	cout << "Choose a number between 10-100" << endl;
+	cin >> num;
+
+	for (int i = 10; i <= num; i += 2)
+		cout << i << endl;
+}
