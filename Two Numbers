@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+void TwoLetters(int num1, int num2);
+
+int main() {
+	int L1, L2;
+	cout << "enter two numbers:" << endl;
+	cin >> L1;
+	cin >> L2;
+
+
+	TwoLetters(L1, L2);
+}
+
+void TwoLetters(int letter1, int letter2) {
+	cout << "added" << letter1 + letter2 << endl;
+	cout << "subtracted" << letter1 - letter2 << endl;
+	cout << "multiplied" << letter1 * letter2 << endl;
+	cout << "divided" << letter1 / letter2 << endl;
+}
